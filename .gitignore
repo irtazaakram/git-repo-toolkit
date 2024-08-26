@@ -37,3 +37,6 @@ done/conf/locale/*/LC_MESSAGES/*
 .pydevproject
 /#Makefile#
 *~
+
+.env
+output
