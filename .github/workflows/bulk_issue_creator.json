@@ -1,8 +1,17 @@
 {
-  "title": "ISSUE_TITLE",
-  "body": "ISSUE_BODY",
+  "title": "Add Support for Python 3.12",
+  "body": "**Description:**
+
+Follow and complete all of the following steps for the issue to be marked as done.
+
+- [ ] Update the `tox.ini`, `setup.py`, `setup.cfg`, or `pyproject.toml` to add Python 3.12 to the supported versions list.
+- [ ] Ensure GitHub Actions workflows, particularly the CI matrix, reflect Python 3.12 as a supported version.
+- [ ] Review and adjust any build or testing configurations to ensure compatibility with Python 3.12.
+- [ ] Run all tests and verify they pass in the CI with Python 3.12.
+- [ ] Add a CHANGELOG entry: “Added support for Python 3.12.”
+- [ ] Bump the package version and release a new version on GitHub & PyPI (if applicable).
+",
   "labels": [
-    "LABEL_1",
-    "LABEL_2"
+    "maintenance"
   ]
 }
