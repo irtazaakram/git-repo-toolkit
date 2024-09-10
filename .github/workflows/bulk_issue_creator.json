@@ -1,6 +1,6 @@
 {
-  "title": "Drop support for Python 3.8",
-  "body": "**Description:**\n\nFollow and complete all of the following steps for the issue to be marked as done.\n\n- [ ] Update the `tox.ini`, `setup.py`, `setup.cfg`, or `pyproject.toml` to remove Python 3.8 from the supported versions list.\n- [ ] Ensure the GitHub Actions workflows are updated, particularly removing Python 3.8 from the CI matrix.\n- [ ] Review and clean up any testing or build configurations referencing Python versions earlier than 3.11.\n- [ ] Run tests in the CI to ensure everything passes after removing Python 3.8.\n- [ ] Add a CHANGELOG entry: “Dropped support for Python 3.8.”\n- [ ] Bump the package version and release a new version on GitHub & PyPI (if applicable).",
+  "title": "Drop Python 3.8 & Add Support for Python 3.12",
+  "body": "**Description:**\n\nFollow and complete all of the following steps for the issue to be marked as done.\n\n- [ ] Update the `tox.ini`, `setup.py`, `setup.cfg`, or `pyproject.toml` to remove Python 3.8 and add support for Python 3.12.\n- [ ] Ensure GitHub Actions workflows, including the CI matrix, are updated to reflect the supported Python versions (3.11, and 3.12).\n- [ ] Adjust any testing or build configurations to ensure compatibility with Python 3.12.\n- [ ] Remove references to Python versions earlier than 3.11 from all relevant configuration files.\n- [ ] Run all tests and verify they pass in the CI with the updated versions.\n- [ ] Add a CHANGELOG entry: “Dropped support for Python 3.8 and added support for Python 3.12.”\n- [ ] Bump the package version and release a new version on GitHub & PyPI (where applicable).",
   "labels": [
     "maintenance"
   ]
